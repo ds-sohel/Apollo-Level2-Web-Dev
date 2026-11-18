@@ -30,12 +30,6 @@ Create a function formatCoordinate that accepts a readonly tuple representing a 
 **Requirements:**
 * Apply the readonly modifier to the tuple parameter so it cannot be mutated inside the function.
 * Return the exact string format: "Location: [locationName] ([latitude], [longitude])" without rounding the numbers.
-## 📚 Blog Posts
-
-I have also completed two technical blog posts:
-
-1. [Type vs Interface](./type-vs-interface.md)
-2. [Access-Modifiers-TypeScript](./Access-Modifiers-TypeScript.md)
 
 ***
 ## Problem 4:
@@ -95,13 +89,20 @@ Create an async function validateAgeAsync that accepts a number age and returns 
 * Explicitly type the return value as Promise<string>.
 * Use new Promise with setTimeout (or async/await) and reject using an Error instance (new Error(...)).
 
+## 📚 Blog Posts
+
+I have also completed two technical blog posts:
+
+1. [Type vs Interface](./type-vs-interface.md)
+2. [Access-Modifiers-TypeScript](./Access-Modifiers-TypeScript.md)
+
 ***
 ## ⚙️ How to Run the Project
 
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/ds-sohel/Apollo-Level2-Web-Dev/tree/main/B8A1
 ```
 
 ### 2. Navigate to the project directory
